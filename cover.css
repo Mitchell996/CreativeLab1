@@ -3,8 +3,8 @@ background-color: #6DBDD6;
 
 }
 p{
-    box-sizing: border-box;
-    max-width: 400px;
+    align-content: center;
+    text-align: center;
 }
 h2{
 color: white;
@@ -164,11 +164,13 @@ button {
      between the labels and their text fields */
   margin-left: .5em;
 }
-@media(min-width: 600px)
+@media(max-width: 600px)
 {
     
     p{
         max-width: 600px;
+        align-content: center;
+        text-align: left;
         
     }
     
